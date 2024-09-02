@@ -78,25 +78,11 @@ publishing {
                 name = PUBLISH_ARTIFACT_ID
                 description = 'SerialPort Library for Android.'
                 // If your project has a dedicated site, use its URL here
-                url = 'https://github.com/geek5nan/SerialPort4Android'
                 licenses {
                     license {
                         name = 'The Apache License, Version 2.0'
                         url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
                     }
-                }
-                developers {
-                    developer {
-                        id = 'geek5nan'
-                        name = 'geek5nan'
-                        email = 'geek5nan@gmail.com'
-                    }
-                }
-                // Version control info, if you're using GitHub, follow the format as seen here
-                scm {
-                    connection = 'scm:git:github.com/geek5nan/SerialPort4Android.git'
-                    developerConnection = 'scm:git:ssh://github.com/geek5nan/SerialPort4Android.git'
-                    url = 'https://github.com/geek5nan/SerialPort4Android/tree/master'
                 }
                 // A slightly hacky fix so that your POM will include any transitive dependencies
                 // that your library builds upon
